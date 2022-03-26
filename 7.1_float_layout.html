@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float Layout</title>
+  <style>
+  
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 960px;
+    margin: auto;
+    
+    
+  }
+
+  
+   header {
+    text-align: center;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 15px;
+   }
+
+   aside {
+    float: left;
+    text-align: left;
+    background-color: green;
+    border: 1px solid black;
+    padding: 15px;
+    width: 30%;
+    
+    margin-top: 5px;
+    height: 200px;
+ 
+   }
+
+   main {
+    float: right;
+    text-align: right;
+    background-color: purple;
+    border: 1px solid black;
+    padding: 15px;
+    width: 69%;
+    margin-top: 5px;
+    height: 200px;
+    
+
+   }
+
+   footer {
+     
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.671);
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 210px ;
+    
+   }
+
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>Header</header>
+    <aside>Side</aside>
+    <main>Main</main>
+    <footer>Footer</footer>
+  </div>
+</body>
+</html>

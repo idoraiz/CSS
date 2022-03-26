@@ -1,0 +1,58 @@
+body {
+  padding-left: 15px;
+  font-family: 'Oswald', sans-serif;
+  background: url('https://wallpapercave.com/wp/wp2446266.png');
+}
+
+img {
+ height: 200px;
+}
+.social ul li  {
+  
+ list-style: none;
+ padding: 5px;
+ margin-left: 55px;
+ 
+}
+
+.social ul li button {
+ color: blue;
+ cursor: pointer;
+ border: none;
+ background: none;
+ 
+}
+.social ul li button:hover {
+ background: rgb(150, 149, 207);
+}
+
+
+.social h3 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 22px;
+ 
+}
+
+.about a {
+ text-decoration: none;
+}
+
+.about {
+ font-size: 25px;
+}
+
+.container {
+  padding-bottom: 15px;
+  padding-right: 35px;
+  list-style: none;
+}
+
+.card {
+  font-size: 20px;
+  float: right;
+  padding: 30px;
+  box-shadow: 4px 4px 8px ;
+  max-width: 300px;
+  margin: 0px 15px;
+  text-align: center;    
+}
