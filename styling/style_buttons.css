@@ -1,0 +1,156 @@
+* {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #333;
+}
+
+.btn-flat-1 {
+  color: white;
+  background-color: rgb(28, 156, 28);
+  padding: 8px 40px;
+  font-size: 20px;
+  border: none;
+}
+
+.btn-flat-1:hover {
+  background-color: green;
+}
+
+.btn-flat-2 {
+  color: white;
+  background-color: red;
+  padding: 10px 25px;
+  font-size: 15px;
+  border: none;
+}
+
+.btn-flat-2:hover {
+  background-color: rgb(224, 49, 49);
+}
+
+.btn-flat-3 {
+  color: white;
+  background-color: blue;
+  padding: 7px 20px;
+  font-size: 15px;
+  border: none;
+}
+
+.btn-flat-3:hover {
+  background-color: rgb(24, 24, 190);
+}
+
+.rnd-btn-1 {
+  color: white;
+  background-color: orange;
+  padding: 8px 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.rnd-btn-1:hover {
+  background-color: rgb(177, 131, 47);
+}
+
+.rnd-btn-2 {
+  color: white;
+  background-color: rgba(248, 248, 0, 0.883);
+  padding: 10px 25px;
+  border: none;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.rnd-btn-2:hover {
+  background-color: rgb(163, 163, 87);
+}
+
+.rnd-btn-3 {
+  color: white;
+  background-color: gray;
+  padding: 7px 20px;
+  border: none;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.rnd-btn-3:hover {
+  background-color: rgb(105, 95, 95);
+}
+
+.fltgst-btn-1 {
+  color: white;
+  padding: 8px 40px;
+  font-size: 20px;
+  border-color: rgb(28, 156, 28);
+  border-style: solid;
+}
+
+.fltgst-btn-1:hover {
+  background-color: green;
+}
+
+.fltgst-btn-2 {
+  color: white;
+  border-color: red;
+  padding: 10px 25px;
+  border-style: solid;
+  font-size: 15px;
+}
+
+.fltgst-btn-2:hover {
+  background-color: red;
+}
+
+.fltgst-btn-3 {
+  color: white;
+  padding: 7px 20px;
+  font-size: 15px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.fltgst-btn-3:hover {
+  background-color: blue;
+}
+
+.rndgst-btn-1 {
+  color: white;
+  padding: 8px 40px;
+  border-style: solid;
+  border-color: orange;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.rndgst-btn-1:hover {
+  background-color: orange;
+}
+
+.rndgst-btn-2 {
+  color: white;
+  padding: 10px 25px;
+  border-style: solid;
+  border-color: red;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.rndgst-btn-2:hover {
+  background-color: red;
+}
+
+.rndgst-btn-3 {
+  color: white;
+  padding: 7px 20px;
+  border-style: solid;
+  border-color: blue;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.rndgst-btn-3:hover {
+  background-color: blue;
+}
