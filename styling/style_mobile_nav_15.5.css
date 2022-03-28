@@ -1,0 +1,15 @@
+@media (max-width: 600px) {  
+    
+  .container {  
+    flex-wrap: wrap;  
+  }  
+    
+  .container  li {  
+    flex-basis: 100%;  
+  }
+
+  .container  a {  
+    flex-basis: 100%;  
+  }
+
+}

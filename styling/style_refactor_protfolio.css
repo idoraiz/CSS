@@ -2,23 +2,41 @@
 body {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  background: url('./Img/pexels-nicole-avagliano-2706654.jpg')no-repeat center center/cover;
+  background: url('../Img/pexels-nicole-avagliano-2706654.jpg')no-repeat center center/cover;
 }
 
-
-nav {
-  padding-top: 10px;
+.container {
+  list-style: none;
+  padding: 20px;
   display: flex;
   font-size: 35px;
-  justify-content: center;
-  justify-content:space-around;
+  justify-content: flex-end;
+  
 }
+
 
 nav li a {
   text-decoration: none;
   text-shadow: 1px 1px 3px;
   color: #fff;
+  padding: 15px;
 }
+
+nav li a:hover {
+  color: #444;
+}
+
+.container a:hover {
+  color: #444;
+}
+
+.container a {
+  margin-right: auto;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px;
+  color: #fff;
+}
+
 body h1 {
   color: #fff;
 }
