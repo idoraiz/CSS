@@ -1,0 +1,65 @@
+
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background: url('./Img/pexels-nicole-avagliano-2706654.jpg')no-repeat center center/cover;
+}
+
+
+nav {
+  padding-top: 10px;
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  justify-content:space-around;
+}
+
+nav li a {
+  text-decoration: none;
+  text-shadow: 1px 1px 3px;
+  color: #fff;
+}
+body h1 {
+  color: #fff;
+}
+
+
+img {
+ height: 250px;
+}
+.social ul li  {
+text-align: center;
+list-style: none;
+padding: 5px;
+}
+
+.social ul li button {
+ color: black;
+ cursor: pointer;
+ border: none;
+ background: none;
+  
+}
+.social ul li button:hover {
+color: #333;
+}
+
+
+.social h3 {
+ font-size: 30px;
+ text-align: center;
+ color: #fff;
+}
+
+.icons {
+color: #fff;
+}
+
+.about a {
+ text-decoration: none;
+}
+
+.about {
+ color: #fff;
+ font-size: 25px;
+}
