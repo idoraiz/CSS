@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Transition</title>
+    <style>
+      body {
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+
+      .box {
+      background-color: blue;
+      position: relative;
+      width: 300px;
+      height: 300px;
+      transition: all 1s ease-in-out;
+    } 
+       
+    .box::before {
+      content: '';
+      position: absolute;
+      background-color: orange;
+      left: 300px;
+      width:300px;
+      height: 300px;
+      transition: all 1s ease-in-out;
+      transform: translateX(-600px);
+       
+    }
+
+     .box:hover::before {
+      transform: translateX(-300px);
+      background-color: green;
+      z-index: 1;
+    } 
+    </style>
+  </head>
+  <body>
+    <button class="box"></button>
+  </body>
+</html>

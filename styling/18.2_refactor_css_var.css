@@ -1,0 +1,89 @@
+
+:root {
+  --dark-color:#444
+  --white: #fff;
+}
+
+
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background: url('../Img/pexels-nicole-avagliano-2706654.jpg')no-repeat center center/cover;
+}
+
+.container {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  font-size: 35px;
+  justify-content: flex-end;
+  
+}
+
+
+nav li a {
+  text-decoration: none;
+  text-shadow: 1px 1px 3px;
+  color: var(--white);
+  padding: 15px;
+}
+
+nav li a:hover {
+  color: var(--dark-color);
+}
+
+.container a:hover {
+  color: var(--dark-color);
+}
+
+.container a {
+  margin-right: auto;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px;
+  color: var(--white);
+}
+
+body h1 {
+  color: var(--white);
+}
+
+
+img {
+ height: 250px;
+}
+.social ul li  {
+text-align: center;
+list-style: none;
+padding: 5px;
+}
+
+.social ul li button {
+ color: black;
+ cursor: pointer;
+ border: none;
+ background: none;
+  
+}
+.social ul li button:hover {
+color: #333;
+}
+
+
+.social h3 {
+ font-size: 30px;
+ text-align: center;
+ color: var(--white);
+}
+
+.icons {
+color: var(--white);
+}
+
+.about a {
+ text-decoration: none;
+}
+
+.about {
+ color: var(--white);
+ font-size: 25px;
+}
